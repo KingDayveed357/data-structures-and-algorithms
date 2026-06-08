@@ -1,8 +1,9 @@
+import math
 class Solution:
     def bruteForceArrangeCoins(self, n: int) -> int:
         row = 1
 
-        while n >= 1:
+        while n >= row:
             n -= row
             row += 1
 
@@ -25,6 +26,7 @@ class Solution:
         return ans
 
     def optimalArrangeCoins(self, n:int) -> int:
+        return int((-1 + math.sqrt(1 + 8 * n)) // 2)
 
 
 
@@ -33,5 +35,7 @@ if __name__ == "__main__":
     n = 5
 
     print(my_solution.bruteForceArrangeCoins(n))
+    print(my_solution.binarySearchArrangeCoins(n))
+    print(my_solution.optimalArrangeCoins(n))
 
 
