@@ -54,13 +54,13 @@ my_brute_force_solution = BruteForceSolution()
 
 
 ## OPTIMIZED SOLUTION (Most efficient solution)
-class OptimizedSolution:
-    def intersection(self, nums1:List[int], nums2:List[int]) -> List[int]:
+# class OptimizedSolution:
+#     def intersection(self, nums1:List[int], nums2:List[int]) -> List[int]:
         
 
 
 
-my_optimized_solution = OptimizedSolution()
+# my_optimized_solution = OptimizedSolution()
 # print(my_optimized_solution.intersection([4,9,5],[9,4,9,8,4]
 # ))
 
